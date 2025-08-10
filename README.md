@@ -5,27 +5,31 @@
 Simple Instagram client built with SproutCore 2.0 and the Browser Package Manager (BPM) tools.
 
 ### Features / Problems:
+
 Touch gesture support on iOS.
 
-* Tap an image to view details.
-* Pinch and pan to zoon on the image in the details view.
+- Tap an image to view details.
+- Pinch and pan to zoon on the image in the details view.
 
 ### Requirements:
 
 BPM - http://getbpm.org or http://sproutcutter.heroku.com
 
-	$ gem install bpm
-	
+    $ gem install bpm
 
 ### Configure:
 
 Obtain a Client ID from http://instagram.com/developer then copy lib/config.sample.js to config.js and edit config.js to insert your Client ID.
 
-	CONFIG.INSTAGRAM_CLIENT_ID="CLIENT ID GOES HERE"
+    CONFIG.INSTAGRAM_CLIENT_ID="CLIENT ID GOES HERE"
 
-### Run:	
+### Run:
+
 From your project directory run:
-	
-	$ bpm preview
-	
+$ bpm preview
 Open http://localhost:4020 in your browser.
+
+<!-- AUTO_API_DOCS -->
+## API Docs
+Swagger UI endpoint: `/docs`
+<!-- AUTO_API_DOCS -->
